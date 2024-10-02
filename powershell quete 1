@@ -1,0 +1,38 @@
+### La liste des commandes Unix et leur équivalent en PowerShell
+
+- **cp** : Copie des fichiers ou des répertoires.
+- **rm** : Supprime des fichiers ou des répertoires.
+- **cd** : Change de répertoire.
+- **mkdir** : Crée un nouveau répertoire.
+- **man** : Affiche le manuel (aide) d'une commande.
+- **history** : Affiche l'historique des commandes exécutées.
+- **alias** : Crée ou affiche des alias pour les commandes.
+- **cat** : Affiche le contenu d'un fichier.
+
+### Commandes PowerShell utilisées pour les recherches
+
+ **cp** (Copier des fichiers ou des répertoires) :  
+   - PowerShell : `Copy-Item`
+
+ **rm** (Supprimer des fichiers ou des répertoires) :  
+   - PowerShell : `Remove-Item`
+
+ **cd** (Changer de répertoire) :  
+   - PowerShell : `Set-Location`
+
+ **mkdir** (Créer un nouveau répertoire) :  
+   - PowerShell : `New-Item -ItemType Directory`
+
+ **man** (Afficher le manuel d'une commande) :  
+   - PowerShell : `Get-Help`
+
+ **history** (Afficher l'historique des commandes) :  
+   - PowerShell : `Get-History`
+
+ **alias** (Créer ou afficher des alias pour les commandes) :  
+   - PowerShell : 
+     - Créer un alias : `$alias:<nomAlias> = "<cmdlet>"`
+     - Afficher des alias : `Get-Alias`
+
+ **cat** (Afficher le contenu d'un fichier) :  
+   - PowerShell : `Get-Content`
